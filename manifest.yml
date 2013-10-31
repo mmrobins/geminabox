@@ -1,0 +1,5 @@
+# Airspace Manifest
+app: geminabox
+runtime: ruby-1.9.3-p448
+team_email: techops@livingsocial.com
+type: rack

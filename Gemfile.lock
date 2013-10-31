@@ -1,0 +1,99 @@
+GEM
+  remote: http://geminabox.lsqa.net/
+  remote: https://rubygems.org/
+  specs:
+    activeresource (2.3.18)
+      activesupport (= 2.3.18)
+    activesupport (2.3.18)
+    builder (3.2.2)
+    capistrano (2.15.5)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
+    colored (1.2)
+    diff-lcs (1.2.4)
+    eventmachine (1.0.3)
+    faye-websocket (0.7.0)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.3.0)
+    geminabox (0.11.1)
+      builder
+      httpclient (>= 2.2.7)
+      nesty
+      sinatra (>= 1.2.7)
+    gli (2.5.6)
+    grit (2.5.0)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+      posix-spawn (~> 0.3.6)
+    highline (1.6.20)
+    httpclient (2.3.4.1)
+    json (1.8.1)
+    kgio (2.8.1)
+    little-plugger (1.1.3)
+    logging (1.7.2)
+      little-plugger (>= 1.1.3)
+    ls-capistrano (1.9.22)
+      capistrano (~> 2.15.0)
+      json
+      ls-config (< 2.0.0)
+      ls-techops (>= 1.4.0)
+    ls-config (0.9.18)
+      gli (~> 2.5.4)
+      json
+      zk (~> 1.7.5)
+    ls-deployment (1.3.2)
+      colored
+      faye-websocket
+      ls-capistrano (>= 1.9.18)
+      ls-manifest (~> 1.2.0)
+      ls-myqa-api (~> 0.0.1)
+      thor
+      unicorn (= 4.1.1)
+    ls-manifest (1.2.1)
+      bundler (~> 1.0)
+      json (~> 1.5)
+    ls-myqa-api (0.0.2)
+      activeresource
+    ls-techops (1.4.0)
+      grit
+      json
+    mime-types (1.25)
+    nesty (1.0.2)
+    net-scp (1.1.2)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.7.0)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    posix-spawn (0.3.6)
+    rack (1.5.2)
+    rack-protection (1.5.1)
+      rack
+    raindrops (0.12.0)
+    sinatra (1.4.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    thor (0.18.1)
+    tilt (1.4.1)
+    unicorn (4.1.1)
+      kgio (~> 2.4)
+      rack
+      raindrops (~> 0.6)
+    websocket-driver (0.3.0)
+    zk (1.7.5)
+      logging (~> 1.7.2)
+      zookeeper (~> 1.4.0)
+    zookeeper (1.4.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  geminabox
+  ls-deployment (= 1.3.2)
+  unicorn
