@@ -5,4 +5,4 @@ Bundler.require(:default)
 
 Geminabox.build_legacy = false
 Geminabox.data = "/u/apps/geminabox/shared/data"
-run Geminabox
+run Geminabox::Server
