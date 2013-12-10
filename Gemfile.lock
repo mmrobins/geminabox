@@ -18,7 +18,7 @@ GEM
     faye-websocket (0.7.0)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.3.0)
-    geminabox (0.11.1)
+    geminabox (0.12.1)
       builder
       httpclient (>= 2.2.7)
       nesty
