@@ -18,7 +18,7 @@ GEM
     faye-websocket (0.7.0)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.3.0)
-    geminabox (0.12.1)
+    geminabox (0.12.2)
       builder
       httpclient (>= 2.2.7)
       nesty
@@ -71,7 +71,7 @@ GEM
       net-ssh (>= 2.6.5)
     posix-spawn (0.3.6)
     rack (1.5.2)
-    rack-protection (1.5.1)
+    rack-protection (1.5.2)
       rack
     raindrops (0.12.0)
     sinatra (1.4.4)
