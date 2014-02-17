@@ -1,4 +1,4 @@
-source "http://geminabox.lsqa.net"
+source "https://gems.livingsocial.net"
 source "https://rubygems.org"
 
 gem 'geminabox'

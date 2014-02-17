@@ -1,5 +1,5 @@
 GEM
-  remote: http://geminabox.lsqa.net/
+  remote: https://gems.livingsocial.net/
   remote: https://rubygems.org/
   specs:
     activeresource (2.3.18)
